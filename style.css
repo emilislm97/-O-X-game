@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+
+body input{
+    width: 50px;  
+}
+#div1{
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+#div1 div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
