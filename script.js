@@ -106,7 +106,6 @@ function Check() {
     }
 
     else if(count % 10==0){
-      alert("beraber");
       Restart();
           }
 
