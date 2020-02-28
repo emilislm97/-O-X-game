@@ -106,6 +106,7 @@ function Check() {
     }
 
     else if(count % 10==0){
+      alert("Bərabərə bitdi!")
       Restart();
           }
 
@@ -114,7 +115,7 @@ function Check() {
 
 
 function Restart() {
-    count = 0;
+    count = 1;
     Arr();
     Tbl();
 }
